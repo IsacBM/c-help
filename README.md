@@ -51,7 +51,7 @@ main() {
 }
 ```
 
-* <b>OBS:</b> Todos esses valores foram criados, mas não possuem nenhum valor atribuido a eles.
+* <b>OBS:</b> Todos esses valores foram criados, mas não possuem nenhum valor atribuido a eles sendo possivél atribuir futuramente.
 ---
 
 ## Funções de Entrada e Saída: (Principais)
@@ -98,7 +98,7 @@ main() {
 * O `&` é para armazenar a informação recebida no endereço de memória criado(Será o endereço da variavel passada, nesse caso, `idade`).
 * * <b>OBS</b> Fique atento(a) as aspas duplas(`"`) e ao ponto e vírgula(`;`).
 
-## Desafio da Parte 1:
+# Desafio da Parte 1:
 
 * Leia 2 valores inteiros e armazene-os nas variáveis A e B. Efetue a soma de A e B atribuindo o seu resultado na variável X. Imprima X conforme exemplo apresentado abaixo. Não apresente mensagem alguma além daquilo que está sendo especificado e não esqueça de imprimir o fim de linha após o resultado
 
