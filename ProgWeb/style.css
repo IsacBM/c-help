@@ -1,0 +1,8 @@
+.tabela table{
+    width: 800px;
+    text-align: center;
+}
+.tabela .espaco{
+    display: flex;
+    justify-content: space-around;
+}
