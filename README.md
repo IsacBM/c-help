@@ -127,7 +127,7 @@ int main(){
 
     int A, B;
 ```
-* 2 - **`Enunciado`**: "[..]Efetue a soma de A e B...", já temos duas variáveis criadas anteriormente que armazena valores, aqui criaremos uma terceira para armaenar a soma.
+* 2 - **`Enunciado`**: "[..]Efetue a soma de A e B...", já temos duas variáveis criadas anteriormente que armazena valores, aqui criaremos uma terceira para armazenar a soma.
 
 ```c
     int X = A + B;
