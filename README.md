@@ -7,13 +7,14 @@
 ```c
 #include <stdio.h>
 
-main() {
-    
+int main() {
+
+    return 1;
 }
 ```
 
 * <b>Primeiro:</b> `#include <stdio.h>`, ela é uma biblioteca de arquivos de cabeçalho que permite trabalhar com funções de entrada e saída. Por exemplo: `printf()` e o `scanf()`.
-* <b>Segundo:</b> `main()`, ela é uma função que sempre será chamada primeiro, independente de quantas funções tenha antes. Qualquer código que esteja dentro de suas chaves `{}` será executado(assim como qualquer outra função).
+* <b>Segundo:</b> `int main()`, ela é uma função que sempre será chamada primeiro, independente de quantas funções tenha antes. Qualquer código que esteja dentro de suas chaves `{}` será executado(assim como qualquer outra função).
 
 ---
 
@@ -22,13 +23,14 @@ main() {
 ```c
 #include <stdio.h>
 
-main() {
+int main() {
 
-    int num = 7;
-    float ponto = 7.7;
-    char caracter = "i";
-    char cadeiaDeCaracter[] = "Isac";
-    
+    int num = 7; // Valores Inteiros
+    float ponto = 7.7; // Valores "Quebrados"
+    char caracter = "i"; // Caractere
+    char cadeiaDeCaracter[] = "Isac"; // Sequência de Caracteres(Lista)
+
+    return 1;
 }
 ```
 * <b>Valores Inteiros:</b> São representados pelo termo `int`. Exemplos: `7`,`8`,`9` e `10`.
@@ -43,15 +45,17 @@ Elas podem ser declaradas/criadas sem precisar de um valor especifico, podendo e
 ```c
 #include <stdio.h>
 
-main() {
+int main() {
 
     int num1, num2;
     char a, nome[20];
     float nota1, nota2;
+
+    return 1;
 }
 ```
 
-* <b>OBS:</b> Todos esses valores foram criados, mas não possuem nenhum valor atribuido a eles sendo possivél atribuir futuramente.
+* <b>OBS:</b> Todos esses valores foram criados, mas não possuem nenhum valor atribuido a eles, sendo assim possivél atribuir futuramente ao decorrer do código.
 ---
 
 ## Funções de Entrada e Saída: (Principais)
@@ -62,10 +66,10 @@ main() {
 ```c
 #include <stdio.h>
 
-main() {
+int main() {
 
-  printf("Olá Sr(a) User, seja muito bem-vindo!");
-
+    printf("Olá Sr(a) User, seja muito bem-vindo!");
+    return 1;
 }
 ```
 
@@ -83,12 +87,13 @@ Olá Sr(a) User, seja muito bem-vindo!
 ```c
 #include <stdio.h>
 
-main() {
+int main() {
 
-  int idade;
+    int idade;
 
-  scanf("%d", &idade);
+    scanf("%d", &idade);
 
+    return 1;
 }
 ```
 
@@ -100,7 +105,7 @@ main() {
 
 # Desafio da Parte 1:
 
-* Leia 2 valores inteiros e armazene-os nas variáveis A e B. Efetue a soma de A e B atribuindo o seu resultado na variável X. Imprima X conforme exemplo apresentado abaixo. Não apresente mensagem alguma além daquilo que está sendo especificado e não esqueça de imprimir o fim de linha após o resultado
+* Leia 2 valores inteiros e armazene-os nas variáveis A e B. Efetue a soma de A e B atribuindo o seu resultado na variável X. Imprima X conforme exemplo apresentado abaixo.
 
 Exemplo de Entrada:
 ```
