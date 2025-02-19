@@ -106,6 +106,7 @@ int main() {
 # Desafio da Parte 1:
 
 * Leia 2 valores inteiros e armazene-os nas variáveis A e B. Efetue a soma de A e B atribuindo o seu resultado na variável X. Imprima X conforme exemplo apresentado abaixo.
+* **`Sugestão`**: Tente fazer sem precisar criar uma função e tente também criando uma função :)
 
 Exemplo de Entrada:
 ```
@@ -115,4 +116,40 @@ Exemplo de Entrada:
 Exemplo de Saída:
 ```
 X = 8
+```
+Passo a Passo:
+
+* 1 - **`Enunciado`**: "Leia 2 valores inteiros e armazene-os nas variáveis A e B...", ou seja, crie duas variáveis do tipo inteiro(int) para armazenar valores que serão enviados pelo usuário.
+```c
+#include <stdio.h>
+
+int main(){
+
+    int A, B;
+```
+* 2 - **`Enunciado`**: "[..]Efetue a soma de A e B...", já temos duas variáveis criadas anteriormente que armazena valores, aqui criaremos uma terceira para armaenar a soma.
+
+```c
+    int X = A + B;
+```
+
+* 3 - **`Enunciado`**: "Imprima X ...", Agora utilizaremos o `printf` para mostrar o resultado no terminal.
+```c
+    printf("X = %d", X);
+
+    return 1;
+}
+```
+* Código Completo:
+```c
+#include <stdio.h>
+
+int main(){
+
+    int A, B;
+    int X = A + B;
+    printf("X = %d", X);
+
+    return 1;
+}
 ```
