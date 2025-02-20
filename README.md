@@ -9,7 +9,7 @@
 
 int main() {
 
-    return 1;
+    return 0;
 }
 ```
 
@@ -30,7 +30,7 @@ int main() {
     char caracter = "i"; // Caractere
     char cadeiaDeCaracter[] = "Isac"; // Sequência de Caracteres(Lista)
 
-    return 1;
+    return 0;
 }
 ```
 * <b>Valores Inteiros:</b> São representados pelo termo `int`. Exemplos: `7`,`8`,`9` e `10`.
@@ -51,7 +51,7 @@ int main() {
     char a, nome[20];
     float nota1, nota2;
 
-    return 1;
+    return 0;
 }
 ```
 
@@ -69,7 +69,7 @@ int main() {
 int main() {
 
     printf("Olá Sr(a) User, seja muito bem-vindo!");
-    return 1;
+    return 0;
 }
 ```
 
@@ -93,7 +93,7 @@ int main() {
 
     scanf("%d", &idade);
 
-    return 1;
+    return 0;
 }
 ```
 
@@ -137,7 +137,7 @@ int main(){
 ```c
     printf("X = %d", X);
 
-    return 1;
+    return 0;
 }
 ```
 * Código Completo:
@@ -150,7 +150,7 @@ int main(){
     int X = A + B;
     printf("X = %d", X);
 
-    return 1;
+    return 0;
 }
 ```
 ## Estruturas de Repetição: For e While...
@@ -168,7 +168,7 @@ int main(){
     for (Variável Auxiliar; Condição; Atualização da variável Auxiliar){
         // conteúdo a ser repetido...
     }
-    return 1;
+    return 0;
 }
 ```
 * A estrutra `for` utiliza os seguintes pontos: Uma variável auxiliar, chamada também de contador que ajuda na contagem de repetições; Uma condição/verificação que controlará o laço; e um incrementador, algo que atualiza o valor da variável auxiliar a cada repetição.
@@ -183,7 +183,7 @@ int main(){
     for (int i = 1; i < 6; i++){
         printf("%d\n", i);
     }
-    return 1;
+    return 0;
 }
 ```
 
