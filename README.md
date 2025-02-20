@@ -153,3 +153,52 @@ int main(){
     return 1;
 }
 ```
+## Estruturas de Repetição: For e While...
+
+* 1 - Estruturas de repetição, como o próprio nome já diz, se diz respeito a repetir algo, nesse caso seria repetir uma determinada parte do código quantas vezes for necessária, até finaliza-lá por uma condição ou por uma "quebra" em determinado ponto(`break`).
+* 2 - Temos dois tipos principais, estruturas que utilizam uma condição de parada(parecido com o `if`) e outros que são "infinitos", até que algo a encerre(`break`).
+
+### Entendendo a Estrutura `For`:
+
+```c
+#include <stdio.h>
+
+int main(){
+
+    for (Variável Auxiliar; Condição; Atualização da variável Auxiliar){
+        // conteúdo a ser repetido...
+    }
+    return 1;
+}
+```
+* A estrutra `for` utiliza os seguintes pontos: Uma variável auxiliar, chamada também de contador que ajuda na contagem de repetições; Uma condição/verificação que controlará o laço; e um incrementador, algo que atualiza o valor da variável auxiliar a cada repetição.
+
+### Exemplo de Uso: Contador do 1 ao 5...
+
+```c
+#include <stdio.h>
+
+int main(){
+
+    for (int i = 1; i < 6; i++){
+        printf("%d\n", i);
+    }
+    return 1;
+}
+```
+
+1 - Variável Auxiliar: `int i = 1`
+* Aqui, a variável `i` é criada e recebe o valor inicial `1`. Ela pode ser de outros tipos (`float`, `char`, etc.), dependendo da necessidade do código.
+
+2- Condição: `i < 6`
+* Enquanto essa condição for verdadeira, o loop continuará executando. No caso, o bloco de código será repetido enquanto `i` for menor que `i`.
+
+3 - Atualização/Incremento: `i++`...
+
+* Esse operador incrementa `i` em `1` a cada repetição do loop.
+    Exemplo de execução:
+    * 1ª repetição: `i = 1`, imprime `1`, depois `i` se torna `2`.
+    * 2ª repetição: `i = 2`, imprime `2`, depois `i` se torna `3`.
+    * E assim por diante, até `i = 6`, quando a condição `i < 6` se torna falsa e o loop para.
+
+### Entendendo a Estrutura `While`:
