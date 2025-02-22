@@ -178,10 +178,66 @@ int main(){
 </details>
 
 <hr>
-<div id="condicionais"></div>
-## Estruturas Condicionais: `if`, `else if` e `else`...
 
-// Parte do IF
+<div id="condicionais"></div>
+
+## Estruturas Condicionais: `if`, `else if` e `else`...
+* 1 - Estruturas condicionais são utilizadas para tomar decisões no código, executando diferentes blocos de comandos dependendo de uma condição específica.
+
+* 2 - Temos três principais formas de utilizá-las:
+  * `if`: Executa um bloco de código se a condição for verdadeira.
+  * `else if`: Adiciona uma segunda opção, caso a primeira condição seja falsa.
+  * `else`: Define um bloco de código a ser executado quando nenhuma das condições anteriores for atendida.
+ 
+### Entendendo as Estruturas:
+
+```c
+#include <stdio.h>
+
+int main(){
+
+    if (Condição) // Se a condição for verdadeira o código dentro dele é executado...
+    {
+        /* Código */
+    }
+    else if(Condição) // Caso o primeiro if não seja verdadeiro, ele faz outra verificação...
+    {
+        /* Código */
+    } 
+    else // Se nenhuma das condições acima forem verdadeiras executará o código dentro dele...
+    { 
+        /* Código */
+    }
+    
+
+    return 1;
+}
+
+```
+
+### Exemplo de Uso:
+
+```c
+#include <stdio.h>
+
+int main() {
+    int a = 5, b = 10;
+
+    if (a > 0 && b > 5) {
+        printf("Ambas as condições são verdadeiras.\n");
+    }
+    
+    if (a > 0 || b < 5) {
+        printf("Pelo menos uma condição é verdadeira.\n");
+    }
+    
+    if (!(a == 5)) {
+        printf("A condição foi invertida.\n");
+    }
+
+    return 0;
+}
+```
 
 
 ## Estruturas de Repetição: `For` e `While`...
