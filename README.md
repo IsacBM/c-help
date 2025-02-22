@@ -11,12 +11,40 @@ Tabelas de conteúdo
 *******
 <div id="tabela"></div>
 
-## Tabela de Operadores:
+## Tabelas de Operadores:
 
-| Operadores | Descrição |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+#### Operadores Aritméticos:
+
+| Operadores | Nome | Descrição | Exemplo |
+| :---: | :---: | --- | :---: |
+| + |  Adição | texto exemplo |
+| - |  Subtração | texto exemplo |
+| * | Multiplicação | texto exemplo |
+| / | Divisão | texto exemplo |
+| % | Módulo | texto exemplo |
+
+#### Operadores Relacionais:
+
+* Esses operadores são usados para comparar valores.
+
+| Operadores | Nome | Descrição | Exemplo |
+| :---: | :---: | --- | :---: |
+| == | Igualdade | texto exemplo |
+| != | 	Diferença | texto exemplo |
+| > | Maior que | texto exemplo |
+| < | Menor que | texto exemplo |
+| >= | Maior ou igual | texto exemplo |
+| <= | Menor ou igual | texto exemplo |
+
+#### Operadores Lógicos:
+
+| Operadores | Nome | Descrição | Exemplo |
+| :---: | :---: | --- | :---: |
+| && | Entenda como `e` | Faz uma "junção" entre comparações. | `a && b == 2` |
+| \|\| | Entenda como `ou` | Uma das expressões tem que ser verdadeiras(`true`). | `a == 1 \|\| a == 9 ` |
+| ! | Negação/Inversão | Inverte o valor lógico do item(`true` vira `false` e vice-versa). | `!a` |
+
+<hr>
 
 ## Corpo de Inicialização: (Estrutura Básica)
 
@@ -221,20 +249,18 @@ int main(){
 #include <stdio.h>
 
 int main() {
-    int a = 5, b = 10;
-
-    if (a > 0 && b > 5) {
-        printf("Ambas as condições são verdadeiras.\n");
+    int idade;
+    printf("Digite sua idade: ");
+    scanf("%d", &idade);
+    
+    if (idade >= 18) {
+        printf("Você é maior de idade.\n");
+    } else if (idade >= 12) {
+        printf("Você é adolescente.\n");
+    } else {
+        printf("Você é criança.\n");
     }
     
-    if (a > 0 || b < 5) {
-        printf("Pelo menos uma condição é verdadeira.\n");
-    }
-    
-    if (!(a == 5)) {
-        printf("A condição foi invertida.\n");
-    }
-
     return 0;
 }
 ```
