@@ -117,7 +117,11 @@ Exemplo de Saída:
 ```
 X = 8
 ```
-Passo a Passo:
+
+<details>
+<summary>Veja Aqui um Exemplo Passo a Passo:</summary>
+
+<br>
 
 * 1 - **`Enunciado`**: "Leia 2 valores inteiros e armazene-os nas variáveis A e B...", ou seja, crie duas variáveis do tipo inteiro(int) para armazenar valores que serão enviados pelo usuário.
 ```c
@@ -153,6 +157,11 @@ int main(){
     return 0;
 }
 ```
+
+</details>
+
+<hr>
+
 ## Estruturas de Repetição: For e While...
 
 * 1 - Estruturas de repetição, como o próprio nome já diz, se diz respeito a repetir algo, nesse caso seria repetir uma determinada parte do código quantas vezes for necessária, até finaliza-lá por uma condição ou por uma "quebra" em determinado ponto(`break`).
