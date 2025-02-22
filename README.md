@@ -9,15 +9,14 @@ Tabelas de conteúdo
  4. **[Estruturas Condicionais: `if`, `else if` e `else`](#condicionais)**
 
 *******
-<div id="tabela">
+<div id="tabela"></div>
+
 ## Tabela de Operadores:
 
 | Operadores | Descrição |
 | --- | --- |
 | git status | List all new or modified files |
 | git diff | Show file differences that haven't been staged |
-
-</div>
 
 ## Corpo de Inicialização: (Estrutura Básica)
 
@@ -179,11 +178,12 @@ int main(){
 </details>
 
 <hr>
-<div id="condicionais">
+<div id="condicionais"></div>
 ## Estruturas Condicionais: `if`, `else if` e `else`...
 
 // Parte do IF
-</div>
+
+
 ## Estruturas de Repetição: `For` e `While`...
 
 * 1 - Estruturas de repetição, como o próprio nome já diz, se diz respeito a repetir algo, nesse caso seria repetir uma determinada parte do código quantas vezes for necessária, até finaliza-lá por uma condição ou por uma "quebra" em determinado ponto(`break`).
