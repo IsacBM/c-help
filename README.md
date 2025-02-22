@@ -1,6 +1,24 @@
 # c-help
 > Aprendizagem...
 
+*******
+Tabelas de conteúdo 
+ 1. **[Tabela de Operadores: Lógicos e Aritméticos](#tabela)**
+ 2. **[Porque usar Markdown?](#why)**
+ 3. **[Ferramentas para Markdown](#tools)**
+ 4. **[Estruturas Condicionais: `if`, `else if` e `else`](#condicionais)**
+
+*******
+<div id="tabela">
+## Tabela de Operadores:
+
+| Operadores | Descrição |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
+
+</div>
+
 ## Corpo de Inicialização: (Estrutura Básica)
 
 
@@ -161,8 +179,12 @@ int main(){
 </details>
 
 <hr>
+<div id="condicionais">
+## Estruturas Condicionais: `if`, `else if` e `else`...
 
-## Estruturas de Repetição: For e While...
+// Parte do IF
+</div>
+## Estruturas de Repetição: `For` e `While`...
 
 * 1 - Estruturas de repetição, como o próprio nome já diz, se diz respeito a repetir algo, nesse caso seria repetir uma determinada parte do código quantas vezes for necessária, até finaliza-lá por uma condição ou por uma "quebra" em determinado ponto(`break`).
 * 2 - Temos dois tipos principais, estruturas que utilizam uma condição de parada(parecido com o `if`) e outros que são "infinitos", até que algo a encerre(`break`).
