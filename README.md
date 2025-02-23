@@ -2,11 +2,13 @@
 > Aprendizagem...
 
 *******
-Tabelas de conteúdo 
+**Sumário do Conteúdo Abordado:**
  1. **[Tabela de Operadores: Lógicos e Aritméticos](#tabela)**
- 2. **[Porque usar Markdown?](#why)**
- 3. **[Ferramentas para Markdown](#tools)**
- 4. **[Estruturas Condicionais: `if`, `else if` e `else`](#condicionais)**
+ 2. **[Corpo de Inicialização: (Estrutura Básica)](#inicio)**
+ 3. **[Variáveis: `int`, `float`, `char(String)`...](#variaveis)**
+ 5. **[Estruturas Condicionais: `if`, `else if` e `else`](#condicionais)**
+ 6. **[Estruturas de Repetição: `for`, `while` e `do while`](#repeticao)**
+ 7. **[Agrupamento de Valores: `Lista` e `Vetores`](#listas)**
 
 *******
 <div id="tabela"></div>
@@ -46,6 +48,8 @@ Tabelas de conteúdo
 
 <hr>
 
+<div id="inicio"></div>
+
 # Corpo de Inicialização: (Estrutura Básica)
 
 
@@ -62,6 +66,8 @@ int main() {
 * <b>Segundo:</b> `int main()`, ela é uma função que sempre será chamada primeiro, independente de quantas funções tenha antes. Qualquer código que esteja dentro de suas chaves `{}` será executado(assim como qualquer outra função).
 
 ---
+
+<div id="variaveis"></div>
 
 # Variáveis: int, float e char(String)
 
@@ -267,6 +273,8 @@ int main() {
 
 <hr>
 
+<div id="repeticao"></div>
+
 # Estruturas de Repetição: `For` e `While`...
 
 * 1 - Estruturas de repetição, como o próprio nome já diz, se diz respeito a repetir algo, nesse caso seria repetir uma determinada parte do código quantas vezes for necessária, até finaliza-lá por uma condição ou por uma "quebra" em determinado ponto(`break`).
@@ -363,5 +371,7 @@ int main(){
 * Enquanto o valor digitado pelo usuário for diferente de `0`(Zero), o laço será repetido, caso o valor digitado seja igual(`==`) a `0`(Zero) o laço se tornará falso e sairá do Loop dando continuidade ao restante do código abaixo do laço.
 
 <hr>
+
+<div id="listas"></div>
 
 # Agrupamento de Valores: `Listas` e `Arrays`...
