@@ -46,7 +46,7 @@ Tabelas de conteúdo
 
 <hr>
 
-## Corpo de Inicialização: (Estrutura Básica)
+# Corpo de Inicialização: (Estrutura Básica)
 
 
 ```c
@@ -63,7 +63,7 @@ int main() {
 
 ---
 
-## Variáveis: int, float e char(String)
+# Variáveis: int, float e char(String)
 
 ```c
 #include <stdio.h>
@@ -103,7 +103,7 @@ int main() {
 * <b>OBS:</b> Todos esses valores foram criados, mas não possuem nenhum valor atribuido a eles, sendo assim possivél atribuir futuramente ao decorrer do código.
 ---
 
-## Funções de Entrada e Saída: (Principais)
+# Funções de Entrada e Saída: (Principais)
 
 ### Função `printf()`:
 
@@ -148,7 +148,7 @@ int main() {
 * O `&` é para armazenar a informação recebida no endereço de memória criado(Será o endereço da variavel passada, nesse caso, `idade`).
 * * <b>OBS</b> Fique atento(a) as aspas duplas(`"`) e ao ponto e vírgula(`;`).
 
-# Desafio da Parte 1:
+## Desafio da Parte 1:
 
 * Leia 2 valores inteiros e armazene-os nas variáveis A e B. Efetue a soma de A e B atribuindo o seu resultado na variável X. Imprima X conforme exemplo apresentado abaixo.
 * **`Sugestão`**: Tente fazer sem precisar criar uma função e tente também criando uma função :)
@@ -174,7 +174,7 @@ X = 8
 
 int main(){
 
-    int A, B;
+    int A = 5, B = 5;
 ```
 * 2 - **`Enunciado`**: "[..]Efetue a soma de A e B...", já temos duas variáveis criadas anteriormente que armazena valores, aqui criaremos uma terceira para armazenar a soma.
 
@@ -195,7 +195,7 @@ int main(){
 
 int main(){
 
-    int A, B;
+    int A = 5, B = 5;
     int X = A + B;
     printf("X = %d", X);
 
@@ -209,7 +209,7 @@ int main(){
 
 <div id="condicionais"></div>
 
-## Estruturas Condicionais: `if`, `else if` e `else`...
+# Estruturas Condicionais: `if`, `else if` e `else`...
 * 1 - Estruturas condicionais são utilizadas para tomar decisões no código, executando diferentes blocos de comandos dependendo de uma condição específica.
 
 * 2 - Temos três principais formas de utilizá-las:
@@ -267,7 +267,7 @@ int main() {
 
 <hr>
 
-## Estruturas de Repetição: `For` e `While`...
+# Estruturas de Repetição: `For` e `While`...
 
 * 1 - Estruturas de repetição, como o próprio nome já diz, se diz respeito a repetir algo, nesse caso seria repetir uma determinada parte do código quantas vezes for necessária, até finaliza-lá por uma condição ou por uma "quebra" em determinado ponto(`break`).
 * 2 - Temos dois tipos principais, estruturas que utilizam uma condição de parada(parecido com o `if`) e outros que são "infinitos", até que algo a encerre(`break`).
@@ -364,4 +364,4 @@ int main(){
 
 <hr>
 
-## Agrupamento de Valores: `Listas` e `Arrays`...
+# Agrupamento de Valores: `Listas` e `Arrays`...
