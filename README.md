@@ -58,7 +58,7 @@ int main() {
 }
 ```
 
-* <b>Primeiro:</b> `#include <stdio.h>`, ela é uma biblioteca de arquivos de cabeçalho que permite trabalhar com funções de entrada e saída. Por exemplo: `printf()` e o `scanf()`.
+* <b>Primeiro:</b> `#include <stdio.h>`, ela é uma biblioteca de arquivos de cabeçalho que permite trabalhar com funções de entrada e saída(Traduzindo: Receber e mostrar informações para o usuário). Por exemplo: `printf()` e o `scanf()`.
 * <b>Segundo:</b> `int main()`, ela é uma função que sempre será chamada primeiro, independente de quantas funções tenha antes. Qualquer código que esteja dentro de suas chaves `{}` será executado(assim como qualquer outra função).
 
 ---
@@ -265,6 +265,7 @@ int main() {
 }
 ```
 
+<hr>
 
 ## Estruturas de Repetição: `For` e `While`...
 
@@ -315,3 +316,52 @@ int main(){
     * E assim por diante, até `i = 6`, quando a condição `i < 6` se torna falsa e o loop para.
 
 ### Entendendo a Estrutura `While`:
+
+```c
+#include <stdio.h>
+
+int main(){
+
+    while (Condição)
+    {
+        /* Código */
+    }
+    
+    return 0;
+}
+```
+
+* Diferentemente do `for`, a estrutura while utiliza apenas uma condição de forma direta, não permitindo criar uma variável interna dentro da sintaxe, ou seja, ela é algo mais simplificado do que o `for` nesse sentido porque ela precisa apenas de uma condição e se ela for verdadeira o código dentro dela será executado até se tornar falso.
+
+### Exemplo de Uso: Enquanto `a` for diferente de `0`...
+
+```c
+#include <stdio.h>
+
+int main(){
+
+    int a = 2;
+
+    while (a != 0)
+    {
+        printf("Digite um valor: \n");
+        scanf("%d", &a);
+        printf("Tô no laço... :)\n");
+    }
+    
+    return 0;
+}
+```
+1 - Variável Externa: `int a = 2`
+* Aqui, a variável `a` é criada fora e antes do laço e recebe o valor inicial `2`. Ela pode ser de outros tipos (`float`, `char`, etc.), dependendo da necessidade do código.
+
+2- Condição: `a != 0`
+* Enquanto essa condição for verdadeira, o loop continuará executando. No caso, o bloco de código será repetido enquanto `a` for diferente de `0`.
+
+3 - Resultado: `printf("Tô no laço... :)\n");`...
+
+* Enquanto o valor digitado pelo usuário for diferente de `0`(Zero), o laço será repetido, caso o valor digitado seja igual(`==`) a `0`(Zero) o laço se tornará falso e sairá do Loop dando continuidade ao restante do código abaixo do laço.
+
+<hr>
+
+## Agrupamento de Valores: `Listas` e `Arrays`...
